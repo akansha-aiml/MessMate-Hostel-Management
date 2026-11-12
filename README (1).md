@@ -1,7 +1,5 @@
 # MessMate
 
-> *One-line description of what MessMate does goes here.*
-
 A Java web application packaged as a WAR file and deployed on Apache Tomcat, with a MySQL database for storage.
 
 ---
@@ -49,8 +47,6 @@ cd MessMate
    ```
 
 3. Update the database URL, username and password in the code that opens the connection.
-
-> *Add the real database name, schema file and connection class here.*
 
 ### 3. Build
 
@@ -106,4 +102,6 @@ MessMate/
 
 ## Author
 
-*Your name, course and college here*
+Akansha Saroha
+MCA AI/ML
+Chandigarh University
