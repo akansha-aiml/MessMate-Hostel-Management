@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessMate | Hostel Mess Management</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7f5;
+            color: #26352e;
+        }
+
+        header {
+            background: #176b4d;
+            color: white;
+            padding: 22px 8%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        header p {
+            margin-bottom: 0;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .welcome {
+            background: white;
+            padding: 40px 25px;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px #00000010;
+        }
+
+        .welcome h2 {
+            color: #176b4d;
+            font-size: 32px;
+        }
+
+        .welcome p {
+            line-height: 1.7;
+            color: #59665f;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin: 28px 0;
+        }
+
+        .feature {
+            display: inline-block;
+            background: #e5f4eb;
+            color: #176b4d;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .feature:hover {
+            background: #176b4d;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .account-links {
+            margin-top: 25px;
+        }
+
+        .account-links a {
+            display: inline-block;
+            margin: 6px;
+            padding: 11px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-btn {
+            background: #176b4d;
+            color: white;
+        }
+
+        .register-btn {
+            border: 2px solid #176b4d;
+            color: #176b4d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #66736b;
+        }
+
+        @media (max-width: 600px) {
+            .welcome h2 {
+                font-size: 26px;
+            }
+
+            .features {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MessMate 🍽️</h1>
+        <p>Smarter Mess Management, Happier Students</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome to MessMate!</h2>
+
+            <p>
+                Your smart hostel mess platform for sharing feedback,
+                tracking food waste, and improving everyday meals.
+            </p>
+
+            <h3>Explore Our Features</h3>
+
+            <div class="features">
+                <a href="feedback.jsp" class="feature">
+                    ⭐ Meal Feedback
+                </a>
+
+                <a href="foodwaste.jsp" class="feature">
+                    ♻️ Food Waste Tracking
+                </a>
+
+                <a href="analytics" class="feature">
+                    📊 View Food Waste Analytics
+                </a>
+            </div>
+
+            <p>
+                Together, let's make hostel dining better and reduce food waste.
+            </p>
+
+            <div class="account-links">
+                <a href="login.jsp" class="login-btn">
+                    Login
+                </a>
+
+                <a href="register.jsp" class="register-btn">
+                    Register
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        MessMate Minor Project | Hostel Mess Feedback &amp; Food Waste Analytics
+    </footer>
+</body>
+</html>
